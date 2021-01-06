@@ -1,11 +1,35 @@
 <div *ngIf="key==5">
     <div class="row">
-       <!--<div class="col">
-            its {{message}}
-        </div>--> 
         <div class="col" *ngFor="let item of items">
+            {{item}}<!--<div *ngFor="let i of item">
+                {{i}}
+            </div>-->
+        </div>
+        
+        
+        
+    </div>
+    <div class="row">
+        <div clas="col">
+            {{mime}}
+        </div>
+    </div>
+    <div class="row">
+        <div class="col" *ngFor="let item of format">
             {{item}}
         </div>
+    </div>
+
+    <div class="row">
+        <div class="col" *ngFor="let item of ur">
+            <img src={{item}}>
+        </div>
+    </div>
+    <div>subcategories</div>
+    <div class="col" *ngFor="let item of s1">
+        {{item}}
+    </div>
+    <div class="row">
         <div class="col">
         
             
@@ -20,3 +44,7 @@
     <div *ngIf="key==6">
         <app-saveform></app-saveform>
     </div>
+
+
+
+    
