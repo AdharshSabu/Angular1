@@ -1,0 +1,16 @@
+<div *ngIf="key==4">
+    <div class="row">
+        <div class="col" *ngFor="let item of items">
+            {{item}}
+        </div>
+        <div class="col">
+        <button class="button" (click)= "myFunction1()">Compact</button>
+        <button class="button" (click)= "myFunction2()">Tower</button>
+        </div>
+    </div>
+    </div>
+    
+
+    <div *ngIf="key==5">
+        <app-summary></app-summary>
+    </div>

@@ -1,0 +1,32 @@
+{
+	"id": "N",
+	"name": "Notebook",
+	"url": "",
+	"categoryType": "product",
+	"description": "<p>Notebook Models</p>",
+	"media": {
+		"icon": {
+			"mime": "image/jpeg",
+			"renditions": [{
+				"format": "thumbnail",
+				"url": "https://test-dam.agcocorp.com/content/dam/dcx-dam/fendt/parts/images/Fendt_1000_vario_icon.jpg/jcr:content/renditions/cq5dam.thumbnail.200.10000.png"
+			}, {
+				"format": "zoom",
+				"url": "https://test-dam.agcocorp.com/content/dam/dcx-dam/fendt/parts/images/Fendt_1000_vario_icon.jpg/jcr:content/renditions/cq5dam.thumbnail.1000.10000.png"
+			}, {
+				"format": "standard",
+				"url": "https://test-dam.agcocorp.com/content/dam/dcx-dam/fendt/parts/images/Fendt_1000_vario_icon.jpg/jcr:content/renditions/cq5dam.thumbnail.500.10000.png"
+			}]
+		}
+	},
+
+	"subcategories": [{
+		"id": "S",
+		"name": "Spectre",
+		"url": "",
+		"categoryType": "series",
+		"description": "<p>Spectre Series</p>",
+		"startingPrice": []
+	}],
+	"startingPrice": []
+}

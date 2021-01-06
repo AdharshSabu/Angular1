@@ -1,0 +1,22 @@
+<div *ngIf="key==5">
+    <div class="row">
+       <!--<div class="col">
+            its {{message}}
+        </div>--> 
+        <div class="col" *ngFor="let item of items">
+            {{item}}
+        </div>
+        <div class="col">
+        
+            
+            <input type="text" required value="name mandatory" (keyup)=getVal($event)>
+        
+        <button class="button" (click)= "myFunction1()">Save</button>
+        
+        </div>
+    </div>
+    </div>
+
+    <div *ngIf="key==6">
+        <app-saveform></app-saveform>
+    </div>
